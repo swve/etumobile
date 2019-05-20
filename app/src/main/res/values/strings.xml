@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EtuMobile</string>
+    <string name="login_placeholder">mail UTT</string>
+    <string name="login_defaultValue">username</string>
+    <string name="password_placehorder">mot de passe</string>
+    <string name="password_defaultValue">password</string>
 </resources>
