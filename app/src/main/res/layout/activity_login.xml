@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/blue_gradient"
-    tools:context=".Login">
+    tools:context=".LoginActivity">
 
     <EditText
         android:id="@+id/login"
@@ -67,5 +67,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.835"
         app:srcCompat="@drawable/grand_logo" />
+
 
 </android.support.constraint.ConstraintLayout>
