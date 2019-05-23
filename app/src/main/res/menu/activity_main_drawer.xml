@@ -5,33 +5,46 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/bord"
+            android:icon="@drawable/house"
+            android:title="Tableau de bord" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/planning"
+            android:icon="@drawable/calendar"
+            android:title="Gestion de planning" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/contacts"
+            android:icon="@drawable/contacts"
+            android:title="Liste des contacts" />
         <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/cursus"
+            android:icon="@drawable/cap"
+            android:title="Gestion de cursus" />
+        <item
+            android:id="@+id/stage"
+            android:icon="@drawable/brief"
+            android:title="Recherche de stage" />
+        <item
+            android:id="@+id/trombi"
+            android:icon="@drawable/contacts"
+            android:title="Trombinoscope" />
+        <item
+            android:id="@+id/pratik"
+            android:icon="@drawable/light"
+            android:title="Infos pratiques" />
+        <item
+            android:id="@+id/ue_guide"
+            android:icon="@drawable/doc"
+            android:title="Guide des UEs" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Nous contacter">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:title="A propos" />
+
         </menu>
     </item>
 
