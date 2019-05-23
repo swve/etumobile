@@ -3,8 +3,13 @@
     android:icon="@drawable/brief"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/profile"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/params"
+        android:orderInCategory="100"
+        android:title="Paramètres"
         app:showAsAction="never" />
 </menu>
