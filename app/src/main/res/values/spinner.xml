@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="importance">
+        <item>Niveau 1 </item>
+        <item>Niveau 2 </item>
+        <item>Niveau 3 </item>
+        <item>Niveau 4 </item>
+        <item>Niveau 5 </item>
+        <item>Niveau 6 </item>
+    </string-array>
+    <string-array name="quand">
+        <item>1 jour avant</item>
+        <item>2 jour avant</item>
+        <item>1 semaine avant</item>
+    </string-array>
+    <string-array name="reccurence">
+        <item>Tout les jours </item>
+        <item>Toutes les semaines</item>
+        <item>Tout les mois</item>
+    </string-array>
+    <string-array name="lang">
+        <item>Français</item>
+        <item>Anglais</item>
+        <item>Arabe</item>
+        <item>Allemand</item>
+        <item>Japonais</item>
+    </string-array>
+</resources>
