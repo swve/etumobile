@@ -96,7 +96,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.contacts) {
 
         } else if (id == R.id.cursus) {
-
+            Intent myIntent = new Intent(MainActivity.this, CursusActivity.class);
+            MainActivity.this.startActivity(myIntent);
+            /** Fading Transition Effect */
+            MainActivity.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.stage) {
