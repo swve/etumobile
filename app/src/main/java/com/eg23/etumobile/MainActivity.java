@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity
             return true;
         }
         else if (id == R.id.ue_guide) {
-            Intent myIntent = new Intent(MainActivity.this, UEActivity.class);
+            Intent myIntent = new Intent(MainActivity.this, UEHomeActivity.class);
             MainActivity.this.startActivity(myIntent);
             return true;
         }
