@@ -69,13 +69,15 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.profile) {
             Intent myIntent = new Intent(MainActivity.this, ProfileActivity.class);
             MainActivity.this.startActivity(myIntent);
-            return true;
+            /** Fading Transition Effect */
+            MainActivity.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
 
         if (id == R.id.params) {
             Intent myIntent = new Intent(MainActivity.this, ParamsActivity.class);
             MainActivity.this.startActivity(myIntent);
-            return true;
+            /** Fading Transition Effect */
+            MainActivity.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
 
         return super.onOptionsItemSelected(item);
@@ -100,16 +102,19 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.stage) {
             Intent myIntent = new Intent(MainActivity.this, InternshipActivity.class);
             MainActivity.this.startActivity(myIntent);
-            return true;
+            /** Fading Transition Effect */
+            MainActivity.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }else if (id == R.id.pratik) {
             Intent myIntent = new Intent(MainActivity.this, InfoActivity.class);
             MainActivity.this.startActivity(myIntent);
-            return true;
+            /** Fading Transition Effect */
+            MainActivity.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
         else if (id == R.id.ue_guide) {
             Intent myIntent = new Intent(MainActivity.this, UEHomeActivity.class);
             MainActivity.this.startActivity(myIntent);
-            return true;
+            /** Fading Transition Effect */
+            MainActivity.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
