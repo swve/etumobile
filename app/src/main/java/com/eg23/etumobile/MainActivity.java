@@ -99,6 +99,10 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.stage) {
 
+        }else if (id == R.id.pratik) {
+            Intent myIntent = new Intent(MainActivity.this, InfoActivity.class);
+            MainActivity.this.startActivity(myIntent);
+            return true;
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
