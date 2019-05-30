@@ -98,7 +98,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.stage) {
-
+            Intent myIntent = new Intent(MainActivity.this, InternshipActivity.class);
+            MainActivity.this.startActivity(myIntent);
+            return true;
         }else if (id == R.id.pratik) {
             Intent myIntent = new Intent(MainActivity.this, InfoActivity.class);
             MainActivity.this.startActivity(myIntent);
