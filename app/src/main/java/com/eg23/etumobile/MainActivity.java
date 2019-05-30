@@ -106,6 +106,11 @@ public class MainActivity extends AppCompatActivity
             MainActivity.this.startActivity(myIntent);
             return true;
         }
+        else if (id == R.id.ue_guide) {
+            Intent myIntent = new Intent(MainActivity.this, UEActivity.class);
+            MainActivity.this.startActivity(myIntent);
+            return true;
+        }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
