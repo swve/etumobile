@@ -8,13 +8,52 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <EditText
+        android:id="@+id/dateSelected"
+        android:layout_width="218dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rightDateButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/triangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/leftDateButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/triangle"
+        android:rotation="180"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="470dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
