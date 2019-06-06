@@ -21,6 +21,8 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent myIntent = new Intent(ProfileActivity.this, ParamsActivity.class);
                 ProfileActivity.this.startActivity(myIntent);
+                /** Fading Transition Effect */
+                ProfileActivity.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 //Toast.makeText(ProfileActivity.this, "Bienvenue à l'application étudiante de l'UTT", Toast.LENGTH_SHORT).show();
 
             }

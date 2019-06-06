@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ParamsActivity"></activity>
+        <activity android:name=".CursusActivity"></activity>
+        <activity android:name=".UEInfoActivity" />
+        <activity android:name=".UEHomeActivity" />
+        <activity android:name=".UEActivity" />
+        <activity android:name=".InternshipActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".ParamsActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
